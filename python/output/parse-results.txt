@@ -1,0 +1,581 @@
+1. tôi có thể sai
+0 PRO 1 AUXL 2 ADJ 3
+Can not find a parser tree for this sentence.
+0 PRO 1 AUXL 2 AUXR 3
+Can not find a parser tree for this sentence.
+0 PRO 1 ADV 2 ADJ 3
+[1, 'ADV', 2, 2, 'ADJ', 3]
+[0, 'PRO', 1, 1, 'ADJP', 3]
+[0, 'NP', 1, 1, 'VP', 3]
+[0, 'S', 3]
+0 PRO 1 ADV 2 AUXR 3
+Can not find a parser tree for this sentence.
+2. tại sao nước biển lại mặn
+0 HW 1 N 2 ADV 3 ADJ 4
+[0, 'HW', 1, 1, 'N', 2, 2, 'ADV', 3, 3, 'ADJ', 4]
+[0, 'NP', 1, 1, 'NP', 2, 2, 'ADJP', 4]
+[0, 'NP', 2, 2, 'VP', 4]
+[0, 'S', 4]
+0 HW 1 N 2 N 3 V 4 ADJ 5
+[1, 'N', 2, 2, 'N', 3, 4, 'ADJ', 5]
+[0, 'HW', 1, 1, 'NP', 2, 2, 'NP', 3, 3, 'V', 4, 4, 'ADJP', 5]
+[0, 'NP', 1, 1, 'NP', 3, 3, 'MV', 4, 4, 'VP', 5]
+[0, 'NP', 3, 3, 'VP', 5]
+[0, 'S', 5]
+0 HW 1 N 2 N 3 ADV 4 ADJ 5
+[1, 'N', 2, 2, 'N', 3, 3, 'ADV', 4, 4, 'ADJ', 5]
+[1, 'NP', 2, 2, 'NP', 3, 3, 'ADJP', 5]
+[1, 'NP', 3, 3, 'VP', 5]
+[0, 'HW', 1, 1, 'S', 5]
+[0, 'S', 5]
+0 HW 1 N 2 V 3 ADJ 4
+[0, 'HW', 1, 1, 'N', 2, 2, 'V', 3, 3, 'ADJ', 4]
+[0, 'NP', 1, 1, 'NP', 2, 2, 'MV', 3, 3, 'ADJP', 4]
+[0, 'NP', 2, 2, 'VP', 4]
+[0, 'S', 4]
+3. chuyến đi Hà Nội của tôi là vào ngày mai
+0 N 1 NAME 2 DET 3 PRO 4 V 5 PP 6 N 7 N 8
+[3, 'PRO', 4, 6, 'N', 7, 7, 'N', 8]
+[1, 'NAME', 2, 2, 'DET', 3, 3, 'NP', 4, 6, 'NP', 7, 7, 'NP', 8]
+[0, 'N', 1, 1, 'NP', 2, 2, 'DETP', 4, 4, 'V', 5, 5, 'PP', 6, 6, 'NP', 8]
+[0, 'NP', 1, 1, 'NP', 4, 4, 'MV', 5, 5, 'PREPS', 8]
+[0, 'NP', 4, 4, 'VP', 8]
+[0, 'S', 8]
+0 N 1 NAME 2 DET 3 PRO 4 V 5 PP 6 N 7
+[0, 'N', 1, 1, 'NAME', 2, 3, 'PRO', 4, 6, 'N', 7]
+[0, 'NP', 1, 1, 'NP', 2, 2, 'DET', 3, 3, 'NP', 4, 4, 'V', 5, 5, 'PP', 6, 6, 'NP', 7]
+[0, 'NP', 2, 2, 'DETP', 4, 4, 'MV', 5, 5, 'PREPS', 7]
+[0, 'NP', 4, 4, 'VP', 7]
+[0, 'S', 7]
+4. tôi nghĩ việc tôi làm là sai
+0 PRO 1 V 2 N 3 PRO 4 V 5 V 6 AUXR 7
+[2, 'N', 3, 3, 'PRO', 4, 5, 'V', 6]
+[1, 'V', 2, 2, 'NP', 3, 3, 'NP', 4, 5, 'MV', 6, 6, 'AUXR', 7]
+[0, 'PRO', 1, 1, 'MV', 2, 2, 'NP', 4, 5, 'MV', 7]
+[0, 'NP', 1, 1, 'VP', 4, 4, 'V', 5, 5, 'VP', 7]
+[0, 'S', 4, 4, 'MV', 5, 5, 'NP', 7]
+[0, 'NP', 4, 4, 'VP', 7]
+[0, 'S', 7]
+0 PRO 1 V 2 N 3 PRO 4 V 5 V 6 ADJ 7
+[2, 'N', 3, 3, 'PRO', 4, 5, 'V', 6, 6, 'ADJ', 7]
+[1, 'V', 2, 2, 'NP', 3, 3, 'NP', 4, 5, 'MV', 6, 6, 'ADJP', 7]
+[0, 'PRO', 1, 1, 'MV', 2, 2, 'NP', 4, 5, 'VP', 6, 6, 'VP', 7]
+[0, 'NP', 1, 1, 'VP', 4, 4, 'V', 5, 5, 'NP', 6, 6, 'NP', 7]
+[0, 'S', 4, 4, 'MV', 5, 5, 'NP', 7]
+[0, 'NP', 4, 4, 'VP', 7]
+[0, 'S', 7]
+5. tôi nghĩ việc của tôi làm là sai
+0 PRO 1 V 2 N 3 DET 4 PRO 5 V 6 V 7 ADJ 8
+[1, 'V', 2, 4, 'PRO', 5, 6, 'V', 7, 7, 'ADJ', 8]
+[1, 'MV', 2, 2, 'N', 3, 3, 'DET', 4, 4, 'NP', 5, 6, 'MV', 7, 7, 'ADJP', 8]
+[1, 'VP', 2, 2, 'NP', 3, 3, 'DETP', 5, 6, 'VP', 7, 7, 'VP', 8]
+[0, 'PRO', 1, 1, 'NP', 2, 2, 'NP', 5, 5, 'V', 6, 6, 'NP', 7, 7, 'NP', 8]
+[0, 'NP', 1, 1, 'NP', 5, 5, 'MV', 6, 6, 'NP', 8]
+[0, 'NP', 5, 5, 'VP', 8]
+[0, 'S', 8]
+0 PRO 1 V 2 N 3 DET 4 PRO 5 V 6 V 7 AUXR 8
+[1, 'V', 2, 4, 'PRO', 5, 6, 'V', 7]
+[1, 'MV', 2, 2, 'N', 3, 3, 'DET', 4, 4, 'NP', 5, 6, 'MV', 7, 7, 'AUXR', 8]
+[1, 'VP', 2, 2, 'NP', 3, 3, 'DETP', 5, 6, 'MV', 8]
+[0, 'PRO', 1, 1, 'NP', 2, 2, 'NP', 5, 5, 'V', 6, 6, 'VP', 8]
+[0, 'NP', 1, 1, 'NP', 5, 5, 'MV', 6, 6, 'NP', 8]
+[0, 'NP', 5, 5, 'VP', 8]
+[0, 'S', 8]
+6. việc đó làm như thế nào
+0 N 1 PRO 2 V 3 ADV 4 HW 5
+[2, 'V', 3]
+[2, 'MV', 3, 3, 'ADV', 4]
+[0, 'N', 1, 1, 'PRO', 2, 2, 'MV', 4]
+[0, 'NP', 1, 1, 'NP', 2, 2, 'VP', 4, 4, 'HW', 5]
+[0, 'NP', 2, 2, 'VP', 5]
+[0, 'S', 5]
+7. hiện nay tôi đã 22 tuổi
+8. số tuổi hiện tại của tôi là 22
+9. tôi đi ra Sài Gòn
+0 PRO 1 V 2 PP 3 NAME 4
+[3, 'NAME', 4]
+[1, 'V', 2, 2, 'PP', 3, 3, 'NP', 4]
+[0, 'PRO', 1, 1, 'MV', 2, 2, 'PREPS', 4]
+[0, 'NP', 1, 1, 'VP', 4]
+[0, 'S', 4]
+10. tôi đi Sài Gòn
+0 PRO 1 V 2 NAME 3
+[1, 'V', 2, 2, 'NAME', 3]
+[0, 'PRO', 1, 1, 'MV', 2, 2, 'NP', 3]
+[0, 'NP', 1, 1, 'VP', 3]
+[0, 'S', 3]
+11. chúng tôi đi chơi
+0 NG 1 PRO 2 V 3 V 4
+[3, 'V', 4]
+[1, 'PRO', 2, 2, 'V', 3, 3, 'MV', 4]
+[0, 'NG', 1, 1, 'NP', 2, 2, 'MV', 3, 3, 'VP', 4]
+[0, 'NP', 2, 2, 'VP', 4]
+[0, 'S', 4]
+0 NG 1 PRO 2 V 3
+Can not find a parser tree for this sentence.
+12. tôi muốn mua một chiếc điện thoại mới
+0 PRO 1 V 2 V 3 NUM 4 PRO 5 V 6 ADV 7
+[5, 'V', 6]
+[3, 'NUM', 4, 4, 'PRO', 5, 5, 'MV', 6, 6, 'ADV', 7]
+[1, 'V', 2, 3, 'NP', 4, 4, 'NP', 5, 5, 'MV', 7]
+[0, 'PRO', 1, 1, 'MV', 2, 3, 'NP', 5, 5, 'VP', 7]
+[0, 'NP', 1, 1, 'VP', 2, 2, 'V', 3, 3, 'S', 7]
+[0, 'S', 2, 2, 'MV', 3, 3, 'NP', 7]
+[0, 'NP', 2, 2, 'VP', 7]
+[0, 'S', 7]
+0 PRO 1 V 2 V 3 NUM 4 PRO 5 N 6 ADJ 7
+[1, 'V', 2, 3, 'NUM', 4, 4, 'PRO', 5, 5, 'N', 6, 6, 'ADJ', 7]
+[0, 'PRO', 1, 1, 'MV', 2, 3, 'NP', 4, 4, 'NP', 5, 5, 'NP', 6, 6, 'ADJP', 7]
+[0, 'NP', 1, 1, 'VP', 2, 2, 'V', 3, 3, 'NP', 5, 5, 'NP', 7]
+[0, 'S', 2, 2, 'MV', 3, 3, 'NP', 7]
+[0, 'NP', 2, 2, 'VP', 7]
+[0, 'S', 7]
+0 PRO 1 V 2 V 3 NUM 4 N 5 N 6 ADV 7
+Can not find a parser tree for this sentence.
+0 PRO 1 V 2 V 3 NUM 4 PRO 5 N 6 ADV 7
+Can not find a parser tree for this sentence.
+0 PRO 1 V 2 V 3 NUM 4 N 5 V 6 ADJ 7
+[3, 'NUM', 4, 4, 'N', 5, 5, 'V', 6, 6, 'ADJ', 7]
+[1, 'V', 2, 3, 'NP', 4, 4, 'NP', 5, 5, 'MV', 6, 6, 'ADJP', 7]
+[0, 'PRO', 1, 1, 'MV', 2, 3, 'NP', 5, 5, 'VP', 7]
+[0, 'NP', 1, 1, 'VP', 2, 2, 'V', 3, 3, 'S', 7]
+[0, 'S', 2, 2, 'MV', 3, 3, 'NP', 7]
+[0, 'NP', 2, 2, 'VP', 7]
+[0, 'S', 7]
+0 PRO 1 V 2 V 3 NUM 4 PRO 5 V 6 ADJ 7
+[3, 'NUM', 4, 4, 'PRO', 5, 5, 'V', 6, 6, 'ADJ', 7]
+[1, 'V', 2, 3, 'NP', 4, 4, 'NP', 5, 5, 'MV', 6, 6, 'ADJP', 7]
+[0, 'PRO', 1, 1, 'MV', 2, 3, 'NP', 5, 5, 'VP', 7]
+[0, 'NP', 1, 1, 'VP', 2, 2, 'V', 3, 3, 'S', 7]
+[0, 'S', 2, 2, 'MV', 3, 3, 'NP', 7]
+[0, 'NP', 2, 2, 'VP', 7]
+[0, 'S', 7]
+0 PRO 1 V 2 V 3 NUM 4 N 5 N 6 ADJ 7
+[1, 'V', 2, 3, 'NUM', 4, 4, 'N', 5, 5, 'N', 6, 6, 'ADJ', 7]
+[0, 'PRO', 1, 1, 'MV', 2, 3, 'NP', 4, 4, 'NP', 5, 5, 'NP', 6, 6, 'ADJP', 7]
+[0, 'NP', 1, 1, 'VP', 2, 2, 'V', 3, 3, 'NP', 5, 5, 'NP', 7]
+[0, 'S', 2, 2, 'MV', 3, 3, 'NP', 7]
+[0, 'NP', 2, 2, 'VP', 7]
+[0, 'S', 7]
+0 PRO 1 V 2 V 3 NUM 4 N 5 V 6 ADV 7
+[5, 'V', 6]
+[3, 'NUM', 4, 4, 'N', 5, 5, 'MV', 6, 6, 'ADV', 7]
+[1, 'V', 2, 3, 'NP', 4, 4, 'NP', 5, 5, 'MV', 7]
+[0, 'PRO', 1, 1, 'MV', 2, 3, 'NP', 5, 5, 'VP', 7]
+[0, 'NP', 1, 1, 'VP', 2, 2, 'V', 3, 3, 'S', 7]
+[0, 'S', 2, 2, 'MV', 3, 3, 'NP', 7]
+[0, 'NP', 2, 2, 'VP', 7]
+[0, 'S', 7]
+13. tôi làm được
+0 PRO 1 V 2 V 3
+[2, 'V', 3]
+[1, 'V', 2, 2, 'MV', 3]
+[0, 'PRO', 1, 1, 'MV', 2, 2, 'VP', 3]
+[0, 'NP', 1, 1, 'VP', 3]
+[0, 'S', 3]
+0 PRO 1 V 2 AUXR 3
+[1, 'V', 2]
+[1, 'MV', 2, 2, 'AUXR', 3]
+[0, 'PRO', 1, 1, 'MV', 3]
+[0, 'NP', 1, 1, 'VP', 3]
+[0, 'S', 3]
+0 PRO 1 V 2 AUXL 3
+Can not find a parser tree for this sentence.
+14. em nhớ chưa gặp anh hôm nay
+15. tôi đang cần tìm một quán cà phê gần đây
+16. cô giáo đã giao bài tập cho học sinh
+0 N 1 AUXL 2 V 3 N 4 PP 5 N 6
+[5, 'N', 6]
+[2, 'V', 3, 3, 'N', 4, 4, 'PP', 5, 5, 'NP', 6]
+[1, 'AUXL', 2, 2, 'MV', 3, 3, 'NP', 4, 4, 'PREPS', 6]
+[0, 'N', 1, 1, 'MV', 3, 3, 'NP', 6]
+[0, 'NP', 1, 1, 'VP', 6]
+[0, 'S', 6]
+0 N 1 AUXL 2 V 3 N 4 V 5 N 6
+[4, 'V', 5, 5, 'N', 6]
+[3, 'N', 4, 4, 'MV', 5, 5, 'NP', 6]
+[2, 'V', 3, 3, 'NP', 4, 4, 'VP', 6]
+[1, 'AUXL', 2, 2, 'MV', 3, 3, 'S', 6]
+[0, 'N', 1, 1, 'MV', 3, 3, 'NP', 6]
+[0, 'NP', 1, 1, 'VP', 6]
+[0, 'S', 6]
+17. từ HCM tới NT là bao xa
+0 N 1 NAME 2 PP 3 NAME 4 V 5 HW 6
+[0, 'N', 1, 1, 'NAME', 2, 3, 'NAME', 4, 4, 'V', 5]
+[0, 'NP', 1, 1, 'NP', 2, 2, 'PP', 3, 3, 'NP', 4, 4, 'MV', 5]
+[0, 'NP', 2, 2, 'PREPS', 4, 4, 'VP', 5, 5, 'HW', 6]
+[0, 'NP', 4, 4, 'VP', 6]
+[0, 'S', 6]
+0 PP 1 NAME 2 PP 3 NAME 4 V 5 HW 6
+[1, 'NAME', 2, 3, 'NAME', 4, 4, 'V', 5]
+[0, 'PP', 1, 1, 'NP', 2, 2, 'PP', 3, 3, 'NP', 4, 4, 'MV', 5]
+[0, 'PREPS', 2, 2, 'PREPS', 4, 4, 'VP', 5, 5, 'HW', 6]
+[0, 'NP', 4, 4, 'VP', 6]
+[0, 'S', 6]
+18. bạn đi đâu thế
+0 PRO 1 V 2 HW 3 V 4
+[1, 'V', 2, 2, 'HW', 3]
+[0, 'PRO', 1, 1, 'MV', 2, 2, 'NP', 3]
+[0, 'NP', 1, 1, 'VP', 3, 3, 'V', 4]
+[0, 'S', 3, 3, 'MV', 4]
+[0, 'NP', 3, 3, 'VP', 4]
+[0, 'S', 4]
+0 PRO 1 V 2 HW 3 PRO 4
+[2, 'HW', 3, 3, 'PRO', 4]
+[1, 'V', 2, 2, 'NP', 3, 3, 'NP', 4]
+[0, 'PRO', 1, 1, 'MV', 2, 2, 'NP', 4]
+[0, 'NP', 1, 1, 'VP', 4]
+[0, 'S', 4]
+19. bạn đi đâu đó
+0 PRO 1 V 2 HW 3 PRO 4
+[2, 'HW', 3, 3, 'PRO', 4]
+[1, 'V', 2, 2, 'NP', 3, 3, 'NP', 4]
+[0, 'PRO', 1, 1, 'MV', 2, 2, 'NP', 4]
+[0, 'NP', 1, 1, 'VP', 4]
+[0, 'S', 4]
+20. bạn đi ra Sài Gòn để làm gì
+0 PRO 1 V 2 PP 3 NAME 4 V 5 V 6 HW 7
+[3, 'NAME', 4, 5, 'V', 6]
+[1, 'V', 2, 2, 'PP', 3, 3, 'NP', 4, 5, 'MV', 6]
+[0, 'PRO', 1, 1, 'MV', 2, 2, 'PREPS', 4, 5, 'VP', 6, 6, 'HW', 7]
+[0, 'NP', 1, 1, 'VP', 4, 4, 'V', 5, 5, 'VP', 7]
+[0, 'S', 4, 4, 'MV', 5, 5, 'NP', 7]
+[0, 'NP', 4, 4, 'VP', 7]
+[0, 'S', 7]
+21. các bạn đi đâu thế
+0 NG 1 PRO 2 V 3 HW 4 V 5
+[2, 'V', 3, 3, 'HW', 4]
+[1, 'PRO', 2, 2, 'MV', 3, 3, 'NP', 4]
+[0, 'NG', 1, 1, 'NP', 2, 2, 'VP', 4, 4, 'V', 5]
+[0, 'NP', 2, 2, 'NP', 4, 4, 'MV', 5]
+[0, 'NP', 4, 4, 'VP', 5]
+[0, 'S', 5]
+0 NG 1 PRO 2 V 3 HW 4 PRO 5
+[3, 'HW', 4, 4, 'PRO', 5]
+[1, 'PRO', 2, 2, 'V', 3, 3, 'NP', 4, 4, 'NP', 5]
+[0, 'NG', 1, 1, 'NP', 2, 2, 'MV', 3, 3, 'NP', 5]
+[0, 'NP', 2, 2, 'VP', 5]
+[0, 'S', 5]
+22. bạn có khỏe không
+0 PRO 1 V 2 ADJ 3 NUM 4
+[2, 'ADJ', 3]
+[2, 'ADJP', 3]
+[2, 'VP', 3, 3, 'NUM', 4]
+[1, 'V', 2, 2, 'NP', 3, 3, 'NP', 4]
+[0, 'PRO', 1, 1, 'MV', 2, 2, 'NP', 4]
+[0, 'NP', 1, 1, 'VP', 4]
+[0, 'S', 4]
+0 PRO 1 AUXL 2 ADJ 3 HW 4
+Can not find a parser tree for this sentence.
+0 PRO 1 V 2 ADJ 3 HW 4
+[1, 'V', 2, 2, 'ADJ', 3]
+[0, 'PRO', 1, 1, 'MV', 2, 2, 'ADJP', 3]
+[0, 'NP', 1, 1, 'VP', 3]
+[0, 'S', 3, 3, 'HW', 4]
+[0, 'S', 4]
+0 PRO 1 V 2 ADJ 3 AUXL 4
+Can not find a parser tree for this sentence.
+0 PRO 1 AUXL 2 ADJ 3 AUXL 4
+Can not find a parser tree for this sentence.
+0 PRO 1 AUXL 2 ADJ 3 NUM 4
+Can not find a parser tree for this sentence.
+23. bạn có thích đi du lịch không
+0 PRO 1 AUXL 2 V 3 V 4 V 5 AUXL 6
+Can not find a parser tree for this sentence.
+0 PRO 1 AUXL 2 V 3 V 4 V 5 NUM 6
+[2, 'V', 3, 4, 'V', 5]
+[1, 'AUXL', 2, 2, 'MV', 3, 4, 'MV', 5]
+[0, 'PRO', 1, 1, 'MV', 3, 4, 'VP', 5, 5, 'NUM', 6]
+[0, 'NP', 1, 1, 'VP', 3, 3, 'V', 4, 4, 'NP', 5, 5, 'NP', 6]
+[0, 'S', 3, 3, 'MV', 4, 4, 'NP', 6]
+[0, 'NP', 3, 3, 'VP', 6]
+[0, 'S', 6]
+0 PRO 1 V 2 V 3 V 4 V 5 NUM 6
+[2, 'V', 3, 4, 'V', 5]
+[1, 'V', 2, 2, 'MV', 3, 4, 'MV', 5]
+[0, 'PRO', 1, 1, 'MV', 2, 2, 'VP', 3, 4, 'VP', 5, 5, 'NUM', 6]
+[0, 'NP', 1, 1, 'VP', 3, 3, 'V', 4, 4, 'NP', 5, 5, 'NP', 6]
+[0, 'S', 3, 3, 'MV', 4, 4, 'NP', 6]
+[0, 'NP', 3, 3, 'VP', 6]
+[0, 'S', 6]
+0 PRO 1 V 2 V 3 V 4 V 5 HW 6
+[2, 'V', 3, 4, 'V', 5]
+[1, 'V', 2, 2, 'MV', 3, 4, 'MV', 5]
+[0, 'PRO', 1, 1, 'MV', 2, 2, 'VP', 3, 4, 'VP', 5, 5, 'HW', 6]
+[0, 'NP', 1, 1, 'VP', 3, 3, 'V', 4, 4, 'VP', 6]
+[0, 'S', 3, 3, 'MV', 4, 4, 'NP', 6]
+[0, 'NP', 3, 3, 'VP', 6]
+[0, 'S', 6]
+0 PRO 1 V 2 V 3 V 4 V 5 AUXL 6
+Can not find a parser tree for this sentence.
+0 PRO 1 AUXL 2 V 3 V 4 V 5 HW 6
+[2, 'V', 3, 4, 'V', 5]
+[1, 'AUXL', 2, 2, 'MV', 3, 4, 'MV', 5]
+[0, 'PRO', 1, 1, 'MV', 3, 4, 'VP', 5, 5, 'HW', 6]
+[0, 'NP', 1, 1, 'VP', 3, 3, 'V', 4, 4, 'VP', 6]
+[0, 'S', 3, 3, 'MV', 4, 4, 'NP', 6]
+[0, 'NP', 3, 3, 'VP', 6]
+[0, 'S', 6]
+24. ngày mai bạn có thời gian rảnh không
+25. ông bà đã ăn cơm chưa
+0 PRO 1 PRO 2 AUXL 3 V 4 N 5 AUXL 6
+Can not find a parser tree for this sentence.
+26. em có thể nhắc lại tất cả các tour được không
+0 PRO 1 ADV 2 V 3 V 4 PRO 5 NG 6 N 7 V 8 HW 9
+[3, 'V', 4, 6, 'N', 7, 7, 'V', 8]
+[3, 'MV', 4, 4, 'PRO', 5, 5, 'NG', 6, 6, 'NP', 7, 7, 'MV', 8]
+[3, 'VP', 4, 4, 'NP', 5, 5, 'NP', 7, 7, 'VP', 8, 8, 'HW', 9]
+[2, 'V', 3, 3, 'NP', 4, 4, 'NP', 7, 7, 'VP', 9]
+[1, 'ADV', 2, 2, 'MV', 3, 3, 'NP', 7, 7, 'NP', 9]
+[0, 'PRO', 1, 1, 'MV', 3, 3, 'NP', 9]
+[0, 'NP', 1, 1, 'VP', 9]
+[0, 'S', 9]
+0 PRO 1 ADV 2 V 3 V 4 PRO 5 NG 6 N 7 AUXR 8 NUM 9
+Can not find a parser tree for this sentence.
+0 PRO 1 AUXL 2 V 3 V 4 PRO 5 NG 6 N 7 V 8 AUXL 9
+Can not find a parser tree for this sentence.
+0 PRO 1 AUXL 2 V 3 ADV 4 PRO 5 NG 6 N 7 AUXL 8 NUM 9
+Can not find a parser tree for this sentence.
+0 PRO 1 AUXL 2 V 3 ADV 4 PRO 5 NG 6 N 7 V 8 HW 9
+[6, 'N', 7, 7, 'V', 8]
+[4, 'PRO', 5, 5, 'NG', 6, 6, 'NP', 7, 7, 'MV', 8]
+[2, 'V', 3, 4, 'NP', 5, 5, 'NP', 7, 7, 'VP', 8, 8, 'HW', 9]
+[2, 'MV', 3, 3, 'ADV', 4, 4, 'NP', 7, 7, 'VP', 9]
+[1, 'AUXL', 2, 2, 'MV', 4, 4, 'S', 9]
+[0, 'PRO', 1, 1, 'MV', 4, 4, 'NP', 9]
+[0, 'NP', 1, 1, 'VP', 9]
+[0, 'S', 9]
+0 PRO 1 AUXL 2 V 3 ADV 4 PRO 5 NG 6 N 7 AUXR 8 NUM 9
+Can not find a parser tree for this sentence.
+0 PRO 1 AUXL 2 V 3 V 4 PRO 5 NG 6 N 7 AUXL 8 NUM 9
+Can not find a parser tree for this sentence.
+0 PRO 1 ADV 2 V 3 ADV 4 PRO 5 NG 6 N 7 V 8 NUM 9
+[6, 'N', 7]
+[4, 'PRO', 5, 5, 'NG', 6, 6, 'NP', 7, 7, 'V', 8, 8, 'NUM', 9]
+[2, 'V', 3, 4, 'NP', 5, 5, 'NP', 7, 7, 'MV', 8, 8, 'NP', 9]
+[2, 'MV', 3, 3, 'ADV', 4, 4, 'NP', 7, 7, 'VP', 9]
+[1, 'ADV', 2, 2, 'MV', 4, 4, 'S', 9]
+[0, 'PRO', 1, 1, 'MV', 4, 4, 'NP', 9]
+[0, 'NP', 1, 1, 'VP', 9]
+[0, 'S', 9]
+0 PRO 1 AUXL 2 V 3 V 4 PRO 5 NG 6 N 7 AUXR 8 NUM 9
+Can not find a parser tree for this sentence.
+0 PRO 1 ADV 2 V 3 ADV 4 PRO 5 NG 6 N 7 AUXL 8 AUXL 9
+Can not find a parser tree for this sentence.
+0 PRO 1 AUXL 2 V 3 V 4 PRO 5 NG 6 N 7 V 8 HW 9
+[3, 'V', 4, 6, 'N', 7, 7, 'V', 8]
+[3, 'MV', 4, 4, 'PRO', 5, 5, 'NG', 6, 6, 'NP', 7, 7, 'MV', 8]
+[3, 'VP', 4, 4, 'NP', 5, 5, 'NP', 7, 7, 'VP', 8, 8, 'HW', 9]
+[2, 'V', 3, 3, 'NP', 4, 4, 'NP', 7, 7, 'VP', 9]
+[1, 'AUXL', 2, 2, 'MV', 3, 3, 'NP', 7, 7, 'NP', 9]
+[0, 'PRO', 1, 1, 'MV', 3, 3, 'NP', 9]
+[0, 'NP', 1, 1, 'VP', 9]
+[0, 'S', 9]
+0 PRO 1 ADV 2 V 3 ADV 4 PRO 5 NG 6 N 7 AUXR 8 AUXL 9
+Can not find a parser tree for this sentence.
+0 PRO 1 ADV 2 V 3 V 4 PRO 5 NG 6 N 7 V 8 NUM 9
+[3, 'V', 4, 6, 'N', 7, 7, 'V', 8]
+[3, 'MV', 4, 4, 'PRO', 5, 5, 'NG', 6, 6, 'NP', 7, 7, 'MV', 8]
+[3, 'VP', 4, 4, 'NP', 5, 5, 'NP', 7, 7, 'VP', 8, 8, 'NUM', 9]
+[2, 'V', 3, 3, 'NP', 4, 4, 'NP', 7, 7, 'NP', 8, 8, 'NP', 9]
+[1, 'ADV', 2, 2, 'MV', 3, 3, 'NP', 7, 7, 'NP', 9]
+[0, 'PRO', 1, 1, 'MV', 3, 3, 'NP', 9]
+[0, 'NP', 1, 1, 'VP', 9]
+[0, 'S', 9]
+0 PRO 1 AUXL 2 V 3 ADV 4 PRO 5 NG 6 N 7 V 8 NUM 9
+[6, 'N', 7]
+[4, 'PRO', 5, 5, 'NG', 6, 6, 'NP', 7, 7, 'V', 8, 8, 'NUM', 9]
+[2, 'V', 3, 4, 'NP', 5, 5, 'NP', 7, 7, 'MV', 8, 8, 'NP', 9]
+[2, 'MV', 3, 3, 'ADV', 4, 4, 'NP', 7, 7, 'VP', 9]
+[1, 'AUXL', 2, 2, 'MV', 4, 4, 'S', 9]
+[0, 'PRO', 1, 1, 'MV', 4, 4, 'NP', 9]
+[0, 'NP', 1, 1, 'VP', 9]
+[0, 'S', 9]
+0 PRO 1 ADV 2 V 3 V 4 PRO 5 NG 6 N 7 AUXR 8 AUXL 9
+Can not find a parser tree for this sentence.
+0 PRO 1 ADV 2 V 3 V 4 PRO 5 NG 6 N 7 AUXL 8 AUXL 9
+Can not find a parser tree for this sentence.
+0 PRO 1 ADV 2 V 3 ADV 4 PRO 5 NG 6 N 7 AUXL 8 HW 9
+Can not find a parser tree for this sentence.
+0 PRO 1 AUXL 2 V 3 ADV 4 PRO 5 NG 6 N 7 AUXL 8 AUXL 9
+Can not find a parser tree for this sentence.
+0 PRO 1 ADV 2 V 3 ADV 4 PRO 5 NG 6 N 7 AUXR 8 HW 9
+Can not find a parser tree for this sentence.
+0 PRO 1 AUXL 2 V 3 V 4 PRO 5 NG 6 N 7 V 8 NUM 9
+[3, 'V', 4, 6, 'N', 7, 7, 'V', 8]
+[3, 'MV', 4, 4, 'PRO', 5, 5, 'NG', 6, 6, 'NP', 7, 7, 'MV', 8]
+[3, 'VP', 4, 4, 'NP', 5, 5, 'NP', 7, 7, 'VP', 8, 8, 'NUM', 9]
+[2, 'V', 3, 3, 'NP', 4, 4, 'NP', 7, 7, 'NP', 8, 8, 'NP', 9]
+[1, 'AUXL', 2, 2, 'MV', 3, 3, 'NP', 7, 7, 'NP', 9]
+[0, 'PRO', 1, 1, 'MV', 3, 3, 'NP', 9]
+[0, 'NP', 1, 1, 'VP', 9]
+[0, 'S', 9]
+0 PRO 1 AUXL 2 V 3 ADV 4 PRO 5 NG 6 N 7 AUXR 8 AUXL 9
+Can not find a parser tree for this sentence.
+0 PRO 1 ADV 2 V 3 ADV 4 PRO 5 NG 6 N 7 V 8 AUXL 9
+Can not find a parser tree for this sentence.
+0 PRO 1 ADV 2 V 3 V 4 PRO 5 NG 6 N 7 AUXL 8 HW 9
+Can not find a parser tree for this sentence.
+0 PRO 1 AUXL 2 V 3 V 4 PRO 5 NG 6 N 7 AUXL 8 AUXL 9
+Can not find a parser tree for this sentence.
+0 PRO 1 ADV 2 V 3 V 4 PRO 5 NG 6 N 7 AUXR 8 HW 9
+Can not find a parser tree for this sentence.
+0 PRO 1 AUXL 2 V 3 V 4 PRO 5 NG 6 N 7 AUXR 8 AUXL 9
+Can not find a parser tree for this sentence.
+0 PRO 1 AUXL 2 V 3 ADV 4 PRO 5 NG 6 N 7 AUXL 8 HW 9
+Can not find a parser tree for this sentence.
+0 PRO 1 AUXL 2 V 3 ADV 4 PRO 5 NG 6 N 7 AUXR 8 HW 9
+Can not find a parser tree for this sentence.
+0 PRO 1 ADV 2 V 3 ADV 4 PRO 5 NG 6 N 7 AUXR 8 NUM 9
+Can not find a parser tree for this sentence.
+0 PRO 1 ADV 2 V 3 ADV 4 PRO 5 NG 6 N 7 AUXL 8 NUM 9
+Can not find a parser tree for this sentence.
+0 PRO 1 ADV 2 V 3 V 4 PRO 5 NG 6 N 7 V 8 AUXL 9
+Can not find a parser tree for this sentence.
+0 PRO 1 ADV 2 V 3 ADV 4 PRO 5 NG 6 N 7 V 8 HW 9
+[6, 'N', 7, 7, 'V', 8]
+[4, 'PRO', 5, 5, 'NG', 6, 6, 'NP', 7, 7, 'MV', 8]
+[2, 'V', 3, 4, 'NP', 5, 5, 'NP', 7, 7, 'VP', 8, 8, 'HW', 9]
+[2, 'MV', 3, 3, 'ADV', 4, 4, 'NP', 7, 7, 'VP', 9]
+[1, 'ADV', 2, 2, 'MV', 4, 4, 'S', 9]
+[0, 'PRO', 1, 1, 'MV', 4, 4, 'NP', 9]
+[0, 'NP', 1, 1, 'VP', 9]
+[0, 'S', 9]
+0 PRO 1 AUXL 2 V 3 V 4 PRO 5 NG 6 N 7 AUXL 8 HW 9
+Can not find a parser tree for this sentence.
+0 PRO 1 AUXL 2 V 3 ADV 4 PRO 5 NG 6 N 7 V 8 AUXL 9
+Can not find a parser tree for this sentence.
+0 PRO 1 AUXL 2 V 3 V 4 PRO 5 NG 6 N 7 AUXR 8 HW 9
+Can not find a parser tree for this sentence.
+0 PRO 1 ADV 2 V 3 V 4 PRO 5 NG 6 N 7 AUXL 8 NUM 9
+Can not find a parser tree for this sentence.
+27. đi từ HCM tới NT hết bao lâu
+0 V 1 N 2 NAME 3 PP 4 NAME 5 V 6 V 7 N 8
+[0, 'V', 1, 1, 'N', 2, 4, 'NAME', 5, 6, 'V', 7, 7, 'N', 8]
+[0, 'MV', 1, 1, 'NP', 2, 2, 'NAME', 3, 3, 'PP', 4, 4, 'NP', 5, 6, 'MV', 7, 7, 'NP', 8]
+[0, 'VP', 2, 2, 'NP', 3, 3, 'PREPS', 5, 5, 'V', 6, 6, 'VP', 8]
+[0, 'NP', 2, 2, 'NP', 5, 5, 'MV', 6, 6, 'NP', 8]
+[0, 'NP', 5, 5, 'VP', 8]
+[0, 'S', 8]
+0 V 1 PP 2 NAME 3 PP 4 NAME 5 V 6 HW 7
+[0, 'V', 1, 1, 'PP', 2, 4, 'NAME', 5]
+[0, 'MV', 1, 1, 'PREPS', 2, 2, 'NAME', 3, 3, 'PP', 4, 4, 'NP', 5]
+[0, 'VP', 2, 2, 'NP', 3, 3, 'PREPS', 5, 5, 'V', 6, 6, 'HW', 7]
+[0, 'NP', 2, 2, 'NP', 5, 5, 'MV', 6, 6, 'NP', 7]
+[0, 'NP', 5, 5, 'VP', 7]
+[0, 'S', 7]
+0 V 1 PP 2 NAME 3 PP 4 NAME 5 V 6 V 7 ADJ 8
+[0, 'V', 1, 1, 'PP', 2, 4, 'NAME', 5, 6, 'V', 7, 7, 'ADJ', 8]
+[0, 'MV', 1, 1, 'PREPS', 2, 2, 'NAME', 3, 3, 'PP', 4, 4, 'NP', 5, 6, 'MV', 7, 7, 'ADJP', 8]
+[0, 'VP', 2, 2, 'NP', 3, 3, 'PREPS', 5, 5, 'V', 6, 6, 'VP', 8]
+[0, 'NP', 2, 2, 'NP', 5, 5, 'MV', 6, 6, 'NP', 8]
+[0, 'NP', 5, 5, 'VP', 8]
+[0, 'S', 8]
+0 V 1 N 2 NAME 3 PP 4 NAME 5 V 6 HW 7
+[0, 'V', 1, 1, 'N', 2, 4, 'NAME', 5]
+[0, 'MV', 1, 1, 'NP', 2, 2, 'NAME', 3, 3, 'PP', 4, 4, 'NP', 5]
+[0, 'VP', 2, 2, 'NP', 3, 3, 'PREPS', 5, 5, 'V', 6, 6, 'HW', 7]
+[0, 'NP', 2, 2, 'NP', 5, 5, 'MV', 6, 6, 'NP', 7]
+[0, 'NP', 5, 5, 'VP', 7]
+[0, 'S', 7]
+0 V 1 N 2 NAME 3 PP 4 NAME 5 V 6 V 7 ADJ 8
+[0, 'V', 1, 1, 'N', 2, 4, 'NAME', 5, 6, 'V', 7, 7, 'ADJ', 8]
+[0, 'MV', 1, 1, 'NP', 2, 2, 'NAME', 3, 3, 'PP', 4, 4, 'NP', 5, 6, 'MV', 7, 7, 'ADJP', 8]
+[0, 'VP', 2, 2, 'NP', 3, 3, 'PREPS', 5, 5, 'V', 6, 6, 'VP', 8]
+[0, 'NP', 2, 2, 'NP', 5, 5, 'MV', 6, 6, 'NP', 8]
+[0, 'NP', 5, 5, 'VP', 8]
+[0, 'S', 8]
+0 V 1 PP 2 NAME 3 PP 4 NAME 5 V 6 V 7 N 8
+[0, 'V', 1, 1, 'PP', 2, 4, 'NAME', 5, 6, 'V', 7, 7, 'N', 8]
+[0, 'MV', 1, 1, 'PREPS', 2, 2, 'NAME', 3, 3, 'PP', 4, 4, 'NP', 5, 6, 'MV', 7, 7, 'NP', 8]
+[0, 'VP', 2, 2, 'NP', 3, 3, 'PREPS', 5, 5, 'V', 6, 6, 'VP', 8]
+[0, 'NP', 2, 2, 'NP', 5, 5, 'MV', 6, 6, 'NP', 8]
+[0, 'NP', 5, 5, 'VP', 8]
+[0, 'S', 8]
+28. đi từ HCM tới DN hết bao lâu
+0 V 1 N 2 NAME 3 PP 4 NAME 5 V 6 V 7 N 8
+[0, 'V', 1, 1, 'N', 2, 4, 'NAME', 5, 6, 'V', 7, 7, 'N', 8]
+[0, 'MV', 1, 1, 'NP', 2, 2, 'NAME', 3, 3, 'PP', 4, 4, 'NP', 5, 6, 'MV', 7, 7, 'NP', 8]
+[0, 'VP', 2, 2, 'NP', 3, 3, 'PREPS', 5, 5, 'V', 6, 6, 'VP', 8]
+[0, 'NP', 2, 2, 'NP', 5, 5, 'MV', 6, 6, 'NP', 8]
+[0, 'NP', 5, 5, 'VP', 8]
+[0, 'S', 8]
+0 V 1 PP 2 NAME 3 PP 4 NAME 5 V 6 HW 7
+[0, 'V', 1, 1, 'PP', 2, 4, 'NAME', 5]
+[0, 'MV', 1, 1, 'PREPS', 2, 2, 'NAME', 3, 3, 'PP', 4, 4, 'NP', 5]
+[0, 'VP', 2, 2, 'NP', 3, 3, 'PREPS', 5, 5, 'V', 6, 6, 'HW', 7]
+[0, 'NP', 2, 2, 'NP', 5, 5, 'MV', 6, 6, 'NP', 7]
+[0, 'NP', 5, 5, 'VP', 7]
+[0, 'S', 7]
+0 V 1 PP 2 NAME 3 PP 4 NAME 5 V 6 V 7 ADJ 8
+[0, 'V', 1, 1, 'PP', 2, 4, 'NAME', 5, 6, 'V', 7, 7, 'ADJ', 8]
+[0, 'MV', 1, 1, 'PREPS', 2, 2, 'NAME', 3, 3, 'PP', 4, 4, 'NP', 5, 6, 'MV', 7, 7, 'ADJP', 8]
+[0, 'VP', 2, 2, 'NP', 3, 3, 'PREPS', 5, 5, 'V', 6, 6, 'VP', 8]
+[0, 'NP', 2, 2, 'NP', 5, 5, 'MV', 6, 6, 'NP', 8]
+[0, 'NP', 5, 5, 'VP', 8]
+[0, 'S', 8]
+0 V 1 N 2 NAME 3 PP 4 NAME 5 V 6 HW 7
+[0, 'V', 1, 1, 'N', 2, 4, 'NAME', 5]
+[0, 'MV', 1, 1, 'NP', 2, 2, 'NAME', 3, 3, 'PP', 4, 4, 'NP', 5]
+[0, 'VP', 2, 2, 'NP', 3, 3, 'PREPS', 5, 5, 'V', 6, 6, 'HW', 7]
+[0, 'NP', 2, 2, 'NP', 5, 5, 'MV', 6, 6, 'NP', 7]
+[0, 'NP', 5, 5, 'VP', 7]
+[0, 'S', 7]
+0 V 1 N 2 NAME 3 PP 4 NAME 5 V 6 V 7 ADJ 8
+[0, 'V', 1, 1, 'N', 2, 4, 'NAME', 5, 6, 'V', 7, 7, 'ADJ', 8]
+[0, 'MV', 1, 1, 'NP', 2, 2, 'NAME', 3, 3, 'PP', 4, 4, 'NP', 5, 6, 'MV', 7, 7, 'ADJP', 8]
+[0, 'VP', 2, 2, 'NP', 3, 3, 'PREPS', 5, 5, 'V', 6, 6, 'VP', 8]
+[0, 'NP', 2, 2, 'NP', 5, 5, 'MV', 6, 6, 'NP', 8]
+[0, 'NP', 5, 5, 'VP', 8]
+[0, 'S', 8]
+0 V 1 PP 2 NAME 3 PP 4 NAME 5 V 6 V 7 N 8
+[0, 'V', 1, 1, 'PP', 2, 4, 'NAME', 5, 6, 'V', 7, 7, 'N', 8]
+[0, 'MV', 1, 1, 'PREPS', 2, 2, 'NAME', 3, 3, 'PP', 4, 4, 'NP', 5, 6, 'MV', 7, 7, 'NP', 8]
+[0, 'VP', 2, 2, 'NP', 3, 3, 'PREPS', 5, 5, 'V', 6, 6, 'VP', 8]
+[0, 'NP', 2, 2, 'NP', 5, 5, 'MV', 6, 6, 'NP', 8]
+[0, 'NP', 5, 5, 'VP', 8]
+[0, 'S', 8]
+29. có bao nhiêu tour đi PQ vậy bạn
+0 AUXL 1 HW 2 N 3 V 4 NAME 5 VAY 6 PRO 7
+Can not find a parser tree for this sentence.
+0 V 1 HW 2 N 3 V 4 NAME 5 VAY 6 PRO 7
+Can not find a parser tree for this sentence.
+0 V 1 HW 2 N 3 V 4 NAME 5 PRO 6 PRO 7
+[0, 'V', 1, 2, 'N', 3, 5, 'PRO', 6, 6, 'PRO', 7]
+[0, 'MV', 1, 1, 'HW', 2, 2, 'NP', 3, 4, 'NAME', 5, 5, 'NP', 6, 6, 'NP', 7]
+[0, 'VP', 1, 1, 'VP', 3, 3, 'V', 4, 4, 'NP', 5, 5, 'NP', 7]
+[0, 'NP', 1, 1, 'NP', 3, 3, 'MV', 4, 4, 'NP', 7]
+[0, 'NP', 3, 3, 'VP', 7]
+[0, 'S', 7]
+0 AUXL 1 HW 2 N 3 V 4 NAME 5 PRO 6 PRO 7
+Can not find a parser tree for this sentence.
+30. tour NT đi bằng phương tiện gì vậy
+0 N 1 NAME 2 V 3 V 4 N 5 HW 6 VAY 7
+Can not find a parser tree for this sentence.
+0 N 1 NAME 2 V 3 ADJ 4 N 5 HW 6 VAY 7
+Can not find a parser tree for this sentence.
+0 N 1 NAME 2 V 3 V 4 N 5 HW 6 PRO 7
+[0, 'N', 1, 1, 'NAME', 2, 2, 'V', 3, 5, 'HW', 6, 6, 'PRO', 7]
+[0, 'NP', 1, 1, 'NP', 2, 2, 'MV', 3, 4, 'N', 5, 5, 'NP', 6, 6, 'NP', 7]
+[0, 'NP', 2, 2, 'VP', 3, 3, 'V', 4, 4, 'NP', 5, 5, 'NP', 7]
+[0, 'S', 3, 3, 'MV', 4, 4, 'NP', 7]
+[0, 'NP', 3, 3, 'VP', 7]
+[0, 'S', 7]
+0 N 1 NAME 2 V 3 ADJ 4 N 5 HW 6 PRO 7
+[3, 'ADJ', 4, 5, 'HW', 6, 6, 'PRO', 7]
+[3, 'ADJP', 4, 4, 'N', 5, 5, 'NP', 6, 6, 'NP', 7]
+[3, 'VP', 4, 4, 'NP', 5, 5, 'NP', 7]
+[0, 'N', 1, 1, 'NAME', 2, 2, 'V', 3, 3, 'NP', 4, 4, 'NP', 7]
+[0, 'NP', 1, 1, 'NP', 2, 2, 'MV', 3, 3, 'NP', 7]
+[0, 'NP', 2, 2, 'VP', 7]
+[0, 'S', 7]
+31. đi NT có những ngày nào nhỉ
+0 V 1 NAME 2 V 3 NG 4 N 5 HW 6
+[0, 'V', 1, 4, 'N', 5]
+[0, 'MV', 1, 2, 'V', 3, 3, 'NG', 4, 4, 'NP', 5]
+[0, 'VP', 1, 1, 'NAME', 2, 2, 'MV', 3, 3, 'NP', 5]
+[0, 'NP', 1, 1, 'NP', 2, 2, 'VP', 5, 5, 'HW', 6]
+[0, 'NP', 2, 2, 'VP', 6]
+[0, 'S', 6]
+0 V 1 NAME 2 AUXL 3 NG 4 N 5 HW 6
+Can not find a parser tree for this sentence.

@@ -1,0 +1,16 @@
+NP VAR ?v SEM(PRO v ?sempro) -> (PRO SEM? sempro ) 
+NP VAR ?v SEM(N v ?semn) -> (N SEM ?semn)
+NP VAR ?v SEM( NAME v ?semname) -> NAME SEM ?semname
+NP VAR ?v SEM(?semant v (?semn)) -> (ART SEM ?semart) (N SEM ?semn ) 
+NP VAR ?v SEM(?sendet v (?semnp)) -> (DET SEM ?sendet) ( NP SEM? semnp) 
+PP PFORM ?pform SEM(lambda x (?semp x ?semnp)) -> ( P SEM ?semp ) ( NP SEM ?semnp) 
+PP SEM (&(?sempp1 ?sempp2 ))-> (PP SEM ?semp) (PP SEM ?sempp )
+VP VAR ?v SEM(lambda x(?semv ?v x ?sempp)) -> (V_np_pp: on SEM ?semv) ( PP PROM SEM ?semp)
+VP VAR ?v SEM(lambda x( ?semaux (?semvp x ))) -> ( AUX SUBCAT ?v SEM ?semaux ) ( VP VFORM ?s SEM ?semvp )
+NP INV+ WH ?q VAR ?v SEM(WH ?v semwh ) -> (WH SEM ?semwh) 
+VP VAR ?v SEM(lambda x (?semv x ?semnp))-> (V_np SEM ?semv) ( NP SEM ?semnp)
+NP VAR ?v SEM (?semnp1 ?semnp2) -> ( NP SEM? semnp1) ( NP SEM? semnp2) 
+S SEM (?semvp ?semnp ) -> (NP SEM ?semnp ) (UP SEM ?semvp ) 
+S INV+ SEM (?semwh ( Semvp Semnp )) -> (NP SEM ?semnp) ( VP SEM ?Semvp) ( WH SEM ?semwh ) 
+S SEM (semvp2? semvp2 ?) -> (VP SEM ?semvp ) (VP SEM ?semvp) 
+head feature for S VP NP PP : INV? AGR?

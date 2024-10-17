@@ -1,0 +1,24 @@
+1. em có thể nhắc lại tất cả các tour được không
+[('N', 'em'), ('AUX', 'có thể'), ('V', 'nhắc lại'), ('DET', 'tất cả'), ('ART', 'các'), ('N', 'tour'), ('YN', 'được không')]
+{'inv': True, 'agr': '2s', 'sem': '(DUOCKHONG1((COTHE1((NHACLAI1)(TATCA1(CAC1(N TOUR1)))))(N EM1)))'}
+-------------------------------------------------------------------------------
+2. đi từ Hồ Chí Minh tới Nha Trang hết bao lâu
+[('V', 'đi'), ('P', 'từ'), ('NAME', 'hồ chí minh'), ('P', 'tới'), ('NAME', 'nha trang'), ('V', 'hết'), ('WH', 'bao lâu')]
+{'sem': '(((DI1)(&((TU1(NAME HCM1))(TOI(NAME NT1)))))((HET1)(WH BAOLAU1)))', 'agr': '3s', 'inv': True}
+-------------------------------------------------------------------------------
+3. đi từ Hồ Chí Minh tới Đà Nẵng hết bao lâu
+[('V', 'đi'), ('P', 'từ'), ('NAME', 'hồ chí minh'), ('P', 'tới'), ('NAME', 'đà nẵng'), ('V', 'hết'), ('WH', 'bao lâu')]
+{'sem': '(((DI1)(&((TU1(NAME HCM1))(TOI(NAME DN1)))))((HET1)(WH BAOLAU1)))', 'agr': '3s', 'inv': True}
+-------------------------------------------------------------------------------
+4. có bao nhiêu tour đi Phú Quốc vậy bạn
+[('V', 'có'), ('WH', 'bao nhiêu'), ('N', 'tour'), ('V', 'đi'), ('NAME', 'phú quốc'), ('INES', 'vậy'), ('PRO', ['bạn'])]
+{'sem': '(((CO1)((WH BAONHIEU1)(N TOUR1)))((DI1)(NAME PQ1)))', 'agr': '3s', 'inv': True}
+-------------------------------------------------------------------------------
+5. tour Nha Trang đi bằng phương tiện gì vậy
+[('N', 'tour'), ('NAME', 'nha trang'), ('V', 'đi'), ('P', 'bằng'), ('N', 'phương tiện'), ('WH', 'gì'), ('INES', ['vậy'])]
+{'sem': '(((DI1)(BY((N PHUONGTIEN1)(WH GI1))))((N TOUR1)(NAME NT1)))', 'agr': '3p', 'inv': True}
+-------------------------------------------------------------------------------
+6. đi Nha Trang có những ngày nào nhỉ
+[('V', 'đi'), ('NAME', 'nha trang'), ('V', 'có'), ('ART', 'những'), ('WH', 'ngày nào'), ('INES', ['nhỉ'])]
+{'sem': '(((DI1)(NAME NT1))((CO1)(CAC1(WH NGAYNAO1))))', 'agr': '3s', 'inv': False}
+-------------------------------------------------------------------------------

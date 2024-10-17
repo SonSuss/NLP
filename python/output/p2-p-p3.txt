@@ -1,0 +1,21 @@
+database = {
+    "tours": {
+        "PQ": {"name": "Phú Quốc", "transport": "airplane"},
+        "DN": {"name": "Đà Nẵng", "transport": "airplane"},
+        "NT": {"name": "Nha Trang", "transport": "train"}
+    },
+    "schedule": {
+        "PQ": [
+            {"departure": "HCMC", "departure_time": "7AM 1/7", "arrival": "PQ", "arrival_time": "9AM 1/7", "runtime": "2:00 HR"},
+            {"departure": "HCMC", "departure_time": "8AM 5/7", "arrival": "PQ", "arrival_time": "10AM 5/7", "runtime": "2:00 HR"}
+        ],
+        "DN": [
+            {"departure": "HCMC", "departure_time": "7AM 1/7", "arrival": "DN", "arrival_time": "9AM 1/7", "runtime": "2:00 HR"},
+            {"departure": "HCMC", "departure_time": "7AM 4/7", "arrival": "DN", "arrival_time": "9AM 4/7", "runtime": "2:00 HR"}
+        ],
+        "NT": [
+            {"departure": "HCMC", "departure_time": "7AM 1/7", "arrival": "NT", "arrival_time": "12AM 1/7", "runtime": "5:00 HR"},
+            {"departure": "HCMC", "departure_time": "7AM 5/7", "arrival": "NT", "arrival_time": "12AM 5/7", "runtime": "5:00 HR"}
+        ]
+    }
+}
